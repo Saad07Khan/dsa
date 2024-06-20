@@ -70,7 +70,7 @@ public:
         for(int i=0;i<w;i++)
         {
 
-        while(j<w && worker[i]>=difprof[j].first)
+        while(j<n && worker[i]>=difprof[j].first)
         {
             maxi=max(maxi,difprof[j].second);
             j++;
