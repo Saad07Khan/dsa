@@ -22,8 +22,6 @@ public:
         ans.push_back(x);
         ans.push_back(y);
         return ans;
-
-        
         
     }
 };
